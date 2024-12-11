@@ -54,10 +54,6 @@ int main() {
             sum_first =sum_first+ digit;  // Первую половину цифр добавляем к sum_first
         }
     }
-    if (sum_first == sum_second) {
-        std::cout << "Билет счастливый!" << std::endl;
-    } else {
-        std::cout << "Повезёт в следующий раз!" << std::endl;
-    }
+
     return 0;
 }
